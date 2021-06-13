@@ -2,8 +2,9 @@
          <footer class="site-footer">
             <div class="footer-inner bg-white">
                <div class="row">
+               <div class="col-sm-6 text-left"></div>
                   <div class="col-sm-6 text-right">
-                     Copyright &copy; <?php echo date('Y')?> Debanjan,Dona,Akash,Kingshuk
+                     Copyright &copy; <?php echo date('Y')?> Akash,Debanjan,Dona,Kingshuk
                   </div>
                </div>
             </div>
