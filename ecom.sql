@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 13, 2021 at 04:47 AM
+-- Generation Time: Jun 13, 2021 at 02:37 PM
 -- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.6
+-- PHP Version: 8.0.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -57,9 +57,9 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `categories`, `status`) VALUES
-(2, 'Cat4', 0),
-(3, 'Cat1', 1),
-(5, 'Cat6', 1);
+(2, 'Smart Watch', 1),
+(3, 'Mobile', 1),
+(5, 'Laptop and accessories', 1);
 
 -- --------------------------------------------------------
 
@@ -110,9 +110,7 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id`, `categories_id`, `name`, `mrp`, `price`, `qty`, `image`, `short_desc`, `description`, `meta_title`, `meta_desc`, `meta_keyword`, `status`) VALUES
-(1, 5, '1', 2, 3, 4, '', '5', '6', '7', '', '9', 1),
-(4, 5, 'test', 100, 99, 12, '727864583_2018_4image_15_14_018245767336-ll.jpg', 'test', 'test', 'test', 'test', 'test', 1),
-(5, 7, 'test33', 100, 98, 8, '708794487_64-1.jpg', 'test', 'test', 'test', '', 'test', 1);
+(7, 3, 'Redmi note 8 Pro', 20000, 16000, 100, '633051869_image_phone.jpg', 'Good Phone to purchase..', '8Gb ram ,', 'XYZ', '', 'DEMO-NEW', 1);
 
 -- --------------------------------------------------------
 
@@ -196,7 +194,7 @@ ALTER TABLE `contact_us`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `users`

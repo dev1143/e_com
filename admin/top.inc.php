@@ -33,19 +33,19 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=''){
                <ul class="nav navbar-nav">
                   <li class="menu-title">Menu</li>
                   <li class="menu-item-has-children dropdown">
-                     <a href="categories.php" > Categories Master</a>
+                     <a href="categories.php" >Manage Categories </a>
                   </li>
                   <li class="menu-item-has-children dropdown">
-                     <a href="product.php" > Product Master</a>
+                     <a href="product.php" >Manage Products </a>
                   </li>
 				  <li class="menu-item-has-children dropdown">
-                     <a href="#" > Order Master</a>
+                     <a href="#" >Manage Order </a>
                   </li>
 				  <li class="menu-item-has-children dropdown">
-                     <a href="users.php" > User Master</a>
+                     <a href="users.php" > User list</a>
                   </li>
 				  <li class="menu-item-has-children dropdown">
-                     <a href="contact_us.php" > Contact Us</a>
+                     <a href="contact_us.php" > Customer Queries</a>
                   </li>
 				  
                </ul>
@@ -54,9 +54,9 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=''){
       </aside>
       <div id="right-panel" class="right-panel">
          <header id="header" class="header">
-            <div class="top-left">
+            <div class="top-left" >
                <div class="navbar-header">
-                  <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="Logo"></a>
+                  <a class="navbar-brand" style="padding:0px;"  href="index.php"><img src="images/logo.png" alt="Logo"></a>
                   <a class="navbar-brand hidden" href="index.php"><img src="images/logo2.png" alt="Logo"></a>
                   <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
                </div>
@@ -64,10 +64,10 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=''){
             <div class="top-right">
                <div class="header-menu">
                   <div class="user-area dropdown float-right">
-                     <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome Admin</a>
-                     <div class="user-menu dropdown-menu">
-                        <a class="nav-link" href="logout.php"><i class="fa fa-power-off"></i>Logout</a>
-                     </div>
+                     <a href="logout.php" aria-haspopup="true" aria-expanded="false"><i class="fa fa-power-off"> </i> Logout</a>
+                     <!-- <div class="user-menu dropdown-menu">
+                        <a class="nav-link" href="logout.php">Logout</a>
+                     </div> -->
                   </div>
                </div>
             </div>
