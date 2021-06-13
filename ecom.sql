@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 14, 2020 at 09:51 AM
--- Server version: 10.1.28-MariaDB
--- PHP Version: 7.0.25
+-- Generation Time: Jun 13, 2021 at 04:47 AM
+-- Server version: 10.4.19-MariaDB
+-- PHP Version: 8.0.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -60,8 +59,7 @@ CREATE TABLE `categories` (
 INSERT INTO `categories` (`id`, `categories`, `status`) VALUES
 (2, 'Cat4', 0),
 (3, 'Cat1', 1),
-(5, 'Cat6', 1),
-(7, 'Cat9', 1);
+(5, 'Cat6', 1);
 
 -- --------------------------------------------------------
 
@@ -83,7 +81,7 @@ CREATE TABLE `contact_us` (
 --
 
 INSERT INTO `contact_us` (`id`, `name`, `email`, `mobile`, `comment`, `added_on`) VALUES
-(1, 'Vishal', 'vishal@gmail.com', '1234567890', 'Test Query', '2020-01-14 00:00:00');
+(1, 'Debanjan', 'debanjan@gmail.com', '1234567890', 'Test Query', '2021-05-10 11:30:23');
 
 -- --------------------------------------------------------
 
@@ -136,7 +134,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `password`, `email`, `mobile`, `added_on`) VALUES
-(1, 'Vishal Gupta', '', 'vishal@gmail.com', '1234567890', '2020-01-14 00:00:00');
+(1, 'Akash', '', 'akash@gmail.com', '1234567890', '2021-05-11 11:26:15');
 
 --
 -- Indexes for dumped tables

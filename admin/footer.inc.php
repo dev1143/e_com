@@ -2,9 +2,7 @@
          <footer class="site-footer">
             <div class="footer-inner bg-white">
                <div class="row">
-                  <div class="col-sm-6" style="text-align: right;">
-                  <br>
-                  <br>
+                  <div class="col-sm-6 text-right">
                      Copyright &copy; <?php echo date('Y')?> Debanjan,Dona,Akash,Kingshuk
                   </div>
                </div>

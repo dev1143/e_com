@@ -44,11 +44,9 @@ if(isset($_POST['submit'])){
                <div class="login-form mt-150">
                   <form method="post">
                      <div class="form-group">
-                     <div>
-                        <div class="row">
-                        <div class="col-lg-6 "
-                           <img src="images/logo.png" alt="cannot render" style="margin:0px 50px"/>
-                           <br>
+                           <a><img src="images/logo.png" alt="Logo" height="90" class="img-login"></a>
+                        </div>
+                        <div class="form-group">
                            <label>Username</label>
                            <input type="text" name="username" class="form-control" placeholder="Username" required>
                         </div>
