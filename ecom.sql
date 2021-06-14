@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 14, 2021 at 07:48 PM
+-- Generation Time: Jun 14, 2021 at 08:39 PM
 -- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.6
+-- PHP Version: 8.0.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -112,7 +112,8 @@ CREATE TABLE `product` (
 INSERT INTO `product` (`id`, `categories_id`, `name`, `mrp`, `price`, `qty`, `image`, `short_desc`, `description`, `meta_title`, `meta_desc`, `meta_keyword`, `status`) VALUES
 (7, 3, 'Samsung M42 5G', 24999, 23999, 150, '135431083_M42_5G_VW160_.jpg', 'Good Phone to purchase..', '8Gb ram', '', '', '', 1),
 (9, 5, 'ASUS VivoBook 15 Core i5 10th Gen', 54999, 50499, 100, '322652596_asus-original-imafz522ntfk9hwx.jpeg', 'ASUS VivoBook 15 Core i5 10th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home) Thin and Light Laptop  (15.6 inch, Transparent Silver, 1.80 kg, With MS Office)', 'Stylish & Portable Thin and Light Laptop\r\n15.6 inch Full HD LED Backlit Anti-glare Display (16:9 Aspect Ratio, 45% NTSC Color Gamut, 200 nits Brightness, 83% Screen-to-body Ratio)\r\nFinger Print Sensor for Faster System Access\r\nLight Laptop without Optical Disk Drive', '', '', '', 1),
-(10, 2, 'APPLE Watch Series 3 GPS - 38 mm Space Grey', 22000, 20900, 80, '680477273_apple-original-6sscfh.jpeg', 'APPLE Watch Series 3 GPS - 38 mm Space Grey Aluminium Case with Black Sport Band  (Black Strap, Regular)', 'GPS and Altimeter\r\nSwimproof\r\nVoice Based Siri\r\n3 Activity Rings Tracking - Move, Exercise, Stand\r\nSmart Coaching\r\nActivity Sharing and Achievements\r\nHeart Rate Monitor\r\nBreathe App\r\nNotifications\r\nTouchscreen\r\nNotifier, Fitness & Outdoor\r\nBattery Runtime: Upto 18 hrs', '', '', '', 1);
+(10, 2, 'APPLE Watch Series 3 GPS - 38 mm Space Grey', 22000, 20900, 80, '680477273_apple-original-6sscfh.jpeg', 'APPLE Watch Series 3 GPS - 38 mm Space Grey Aluminium Case with Black Sport Band  (Black Strap, Regular)', 'GPS and Altimeter\r\nSwimproof\r\nVoice Based Siri\r\n3 Activity Rings Tracking - Move, Exercise, Stand\r\nSmart Coaching\r\nActivity Sharing and Achievements\r\nHeart Rate Monitor\r\nBreathe App\r\nNotifications\r\nTouchscreen\r\nNotifier, Fitness & Outdoor\r\nBattery Runtime: Upto 18 hrs', '', '', '', 1),
+(11, 5, 'HP Pentium Quad Core', 20000, 18000, 150, '618122223_laptop-img.jpeg', 'HP Pentium Quad Core - (8 GB/256 GB SSD/Windows 10 Home) 14s- DQ3018TU Thin and Light Laptop  (14 inch, Jet Black, 1.46 kg, With MS Office)', 'Stylish & Portable Thin and Light Laptop\r\n14 inch HD Micro-Edge Bright View IPS Display (250 nits Brightness, 45% NTSC Color Gamut, 112 PPI)\r\nLight Laptop without Optical Disk Drive', 'Null', 'Null', '', 1);
 
 -- --------------------------------------------------------
 
@@ -196,7 +197,7 @@ ALTER TABLE `contact_us`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `users`
